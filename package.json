@@ -1,0 +1,27 @@
+{
+  "name": "face-recognition-api",
+  "version": "1.0.0",
+  "description": "A light-weight RESTful API which takes an image, detects human face, recognize features and matches with a vector store",
+  "homepage": "https://github.com/khandelwalkunal779/face-recognition-api#readme",
+  "bugs": {
+    "url": "https://github.com/khandelwalkunal779/face-recognition-api/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/khandelwalkunal779/face-recognition-api.git"
+  },
+  "license": "ISC",
+  "author": "Kunal Khandelwal",
+  "type": "module",
+  "scripts": {
+    "start": "node index.js",
+    "test": "echo \"No tests yet...\""
+  },
+  "dependencies": {
+    "canvas": "^2.9.0",
+    "express": "^5.1.0",
+    "face-api.js": "^0.22.2",
+    "file-type": "^20.5.0"
+  },
+  "main": "index.js"
+}
