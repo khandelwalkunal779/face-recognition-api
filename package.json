@@ -15,7 +15,8 @@
   "type": "module",
   "scripts": {
     "start": "node index.js",
-    "test": "echo \"No tests yet...\""
+    "test": "echo \"No tests yet...\"",
+    "dev": "nodemon index.js"
   },
   "dependencies": {
     "canvas": "^2.9.0",
@@ -23,5 +24,8 @@
     "face-api.js": "^0.22.2",
     "file-type": "^20.5.0"
   },
-  "main": "index.js"
+  "main": "index.js",
+  "devDependencies": {
+    "nodemon": "^3.1.11"
+  }
 }
