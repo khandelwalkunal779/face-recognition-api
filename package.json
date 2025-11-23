@@ -14,9 +14,9 @@
   "author": "Kunal Khandelwal",
   "type": "module",
   "scripts": {
-    "start": "node index.js",
+    "start": "node server.js",
     "test": "echo \"No tests yet...\"",
-    "dev": "nodemon index.js"
+    "dev": "nodemon server.js"
   },
   "dependencies": {
     "canvas": "^2.9.0",
@@ -25,7 +25,7 @@
     "file-type": "^20.5.0",
     "heic-convert": "^2.1.0"
   },
-  "main": "index.js",
+  "main": "server.js",
   "devDependencies": {
     "nodemon": "^3.1.11"
   }
